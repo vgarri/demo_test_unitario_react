@@ -3,5 +3,5 @@ WORKDIR /app
 COPY . .
 RUN npm install && npm run build
 WORKDIR /app
-CMD ["npm", "run", "dev", "--host"]
+CMD ["npm", "run", "dev"]
 EXPOSE 8080
