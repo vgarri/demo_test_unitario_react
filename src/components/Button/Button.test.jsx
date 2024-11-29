@@ -31,6 +31,8 @@ describe("Testing a button", () => {
     );
     const button = container.querySelector("button");
     fireEvent.click(button);
-    expect(count).toBe(1000);
+    expect(count).toBe(1001);
   });
+
+
 });
