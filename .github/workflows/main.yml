@@ -13,6 +13,7 @@ on:
     branches: 
       - main
       - develop
+      - pruebas_fs
     paths-ignore:
       - "docs/**"
 
